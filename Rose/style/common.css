@@ -1,0 +1,59 @@
+/**/
+body{ font-family:"微软雅黑"; font-size:14px; color:#000;}
+ul,li{ list-style:none;}
+a{ text-decoration:none; color:#ff99cc }
+a:hover{ color:#ff66cc;}
+*{ padding:0; margin:0}
+.clear{ clear:both;}
+/**/ 
+#bodywrap{ width:1024px; margin:0 auto;}
+#header #top{ height:30px; background:url(../images/top.gif) repeat-x; color:#fff; font-size:12px; line-height:30px}
+#header #top a{ color:#fff}
+#header #top #top_left{ float:left; padding-left:10px}
+#header #top #top_right{ float:right; padding-right:10px}
+#header #nav ul li{ float:left; width:118px; text-align:center;}
+#header #nav{ padding:0 40px; height:38px; line-height:38px; background:url(../images/nav_bg.jpg) repeat-x; font-size:16px;}
+#header #nav a{ color:#fff; display:block; width:118px; height:38px;}
+#header #nav a:hover{background-color:#fff; color:#000; /*border-left:1px solid #ea057c;border-right:1px solid #ea057c*/}
+#header #nav li.now{ background-color:#fff;}
+#header #nav li.now a{ color:#000;}
+/**/
+#homeContent #searchBox{ width:600px; margin:0 auto; padding:10px 20px; text-align:center}
+#homeContent #searchBox p{ display:inline; margin-right:20px; line-height:25px}
+#homeContent #searchBox p input{ background:url(../images/search.jpg) no-repeat; width:58px; height:25px; color:#fff; border:none}
+#homeContent #Activitis{ float:left;}
+#homeContent .head a{ color:#ea057c; font-size:16px; font-weight:bold}
+#homeContent #Activitis .head{ background:url(../images/left_h.gif) no-repeat; width:298px; height:34px; padding-left:10px}
+#homeContent #Activitis table{ font-size:12px; margin-top:10px}
+#homeContent #Activitis table .tb_left a{ color:#000}
+#homeContent #Activitis table .tb_left { text-align:left; width:190px; line-height:22px}
+#homeContent #Activitis table .tb_right a{ color:#ec4fa1;}
+#homeContent #Activitis table .tb_right{ text-align:right; width:82px; }
+#homeContent #Happiness{ float:left}
+#homeContent #Happiness .head{ background:url(../images/right_h.gif) no-repeat; width:706px; height:34px; padding-left:10px}
+#homeContent #Happiness #happy_show{ margin-top:10px; text-align:center}
+#homeContent #leftpart{ float:left;width:722px;}
+#homeContent #leftpart  #Stars .head{ background:url(../images/left_h2.gif) no-repeat; width:712px; height:74px; padding-top:34px; padding-left:10px}
+#homeContent #leftpart #Stars .Star_show{ float:left;font-size:12px; margin-top:30px }
+#homeContent #leftpart #Stars .Star_show .star_name{ color:#ea057c;}
+#homeContent #leftpart #Stars .Star_show .star_details{ background:url(../images/more.jpg) no-repeat;padding-left: 8px;}
+#homeContent #leftpart #Stars .Star_show .star_details a{ color:#ea057c;}
+#homeContent #leftpart #Show .head{ background:url(../images/left_h3.gif) no-repeat; width:712px; height:34px; padding-left:10px}
+#homeContent #leftpart #Show table{ margin-top:20px; line-height:28px; color:#03a1f3}
+#homeContent #leftpart #Show table img{ vertical-align:top}
+#homeContent #leftpart #Show{ margin-top:30px}
+#homeContent #leftpart #Show #Show_more{ background:url(../images/more.jpg) no-repeat right; text-align:right; margin-top:10px}
+#homeContent #leftpart #Show #Show_more a{ color:#ea057c}
+#homeContent #rightpart{ float:right; width:302px}
+#homeContent #rightpart .head{ background:url(../images/right_h2.gif) no-repeat; width:250px; height:74px;padding-top:34px; padding-left:52px;}
+#homeContent #rightpart #Hot{ background:url(../images/right_bg.jpg) repeat-x; width:257px; margin-left:44px; text-align:center; padding:10px 0px}
+#homeContent #rightpart #Hot .Hot_title{ font-size:16px; font-weight:16px; text-align:center; margin-top:20px; padding:0 25px}
+#homeContent #rightpart #Hot .Hot_title a{ color:#ea057c;}
+#homeContent #rightpart #Hot .Hot_content{ font-size:11px; color:#434242; line-height:22px; padding:10px 25px}
+#homeContent #rightpart #Hot .Hot_content2{ font-size:12px;line-height:28px;padding:0 25px}
+#homeContent #links .head{ background:url(../images/left_h4.gif) no-repeat; width:1014px; height:35px; padding-left:10px}
+#homeContent #links #links_content a{ display:block; width:120px; text-align:center; float:left; color:#000}
+#homeContent #links #links_content{ width:960px; margin:0 auto; padding:15px 0; line-height:22px}
+#footer #copyright{ text-align:center; line-height:26px;padding-bottom: 10px;}
+#footer #footer_links{ background:url(../images/footer.gif) no-repeat; height:40px;padding-top: 8px; font-size:12px; margin:10px  0;padding-left: 286px;*padding-left:280px; }
+#footer #footer_links a{display:block;  text-align:center; float:left; color:#000;margin-right:10px;}
